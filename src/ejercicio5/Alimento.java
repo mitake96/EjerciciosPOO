@@ -107,7 +107,7 @@ public class Alimento {
 	@Override
 	public String toString() {
 		return String.format(
-				"Alimento [nombre=%s, lipidos=%s, hidratos=%s, proteinas=%s, esAnimal=%s, vitaminas=%s, minerales=%s]",
+				"Alimento: \nNombre=%s\nLipidos=%s\nHidratos=%s\nProteinas=%s\nEsAnimal=%s\nVitaminas=%s\nMinerales=%s",
 				nombre, lipidos, hidratos, proteinas, esAnimal, vitaminas, minerales);
 	}
 
