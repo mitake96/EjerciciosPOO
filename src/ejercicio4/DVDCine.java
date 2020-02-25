@@ -2,6 +2,7 @@ package ejercicio4;
 
 public class DVDCine {
 	
+<<<<<<< Updated upstream
 	private String nombre;
 	private String nombre_traducido;
 	private Genero genero;
@@ -109,4 +110,16 @@ public class DVDCine {
 	public String toString() {
 		return String.format("Nombre %s\nNombre traducido: %s\nNombre director:  %s\nActores: %s\nGenero: %s\nDuracion: %s\nResumen: %s\n", getNombre(), getNombre_traducido(), getDirector(), getActores(), getGenero(), getDuracion(), tieneResumen() ? ("Resumen: " + resumen): "" );
 	}
+=======
+	
+	String nombre;
+	String nombre_traducido;
+
+	public DVDCine(String nombre, String nombre_traducido) {	
+		
+		
+		// TODO Auto-generated constructor stub
+	}
+
+>>>>>>> Stashed changes
 }
