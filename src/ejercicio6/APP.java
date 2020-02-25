@@ -19,7 +19,7 @@ public class APP {
 		int counter = 0;
 		
 		do {
-		System.out.println("Introduzca el modelo de un vehículo o escriba 'fin' si desea terminar el programa ");
+		System.out.println("Introduzca el modelo de un vehiculo o escriba 'fin' si desea terminar el programa ");
 		modelo = keyboard.readString();
 		
 		
@@ -28,7 +28,7 @@ public class APP {
 				System.out.println("Introduce la potencia: ");
 				potencia = keyboard.readDouble();
 				coche[counter].setPotencia(potencia);
-				System.out.println("Si el vehículo tiene traccion a las cuatro ruedas, introduzca '1'");
+				System.out.println("Si el vehiculo tiene traccion a las cuatro ruedas, introduzca '1'");
 				traccion = keyboard.readBooleanUsingInt(1);
 
 				if (traccion) {

@@ -1,6 +1,6 @@
 package ejercicio5;
 
-public class App {
+public class APP {
 
 	public static void main(String[] args) {
 		
